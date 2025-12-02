@@ -1,0 +1,26 @@
+.button {
+    color: #fff;
+    background-color: #0865f0;
+    padding: 10px 15px;
+    border: 2px solid #a0c7e9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-container {
+    width: 450px;
+    border: 1px solid rgb(218, 212, 212);
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.text-field { 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+.text-field.expanded {
+    max-height: 500px;
+}
