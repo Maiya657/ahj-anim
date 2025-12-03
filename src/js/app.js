@@ -10,9 +10,9 @@ const onLoad = () => {
 };
 
 const onBeforeUnload = () => {
-  btn.removeEventListener('click', onClick);
-  document.removeEventListener('DOMContentLoaded', onLoad);
+  btn.removeEventListener("click", onClick);
+  document.removeEventListener("DOMContentLoaded", onLoad);
 }
 
-document.addEventListener('DOMContentLoaded', onLoad);
-document.addEventListener('beforeunload', onBeforeUnload);
+document.addEventListener("DOMContentLoaded", onLoad);
+document.addEventListener("beforeunload", onBeforeUnload);
